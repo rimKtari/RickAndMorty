@@ -7,12 +7,12 @@
 
 import Foundation
 
-//@Observable
 class CharacterListViewModel: ObservableObject {
     
     private var getCharactersListUseCase: GetCharactersListUseCase
     
     @Published private(set) var state: CharacterListState = .loading
+    
 
     init(getCharactersListUseCase: GetCharactersListUseCase = GetCharactersListUseCase()) {
         self.getCharactersListUseCase = getCharactersListUseCase
@@ -22,16 +22,20 @@ class CharacterListViewModel: ObservableObject {
         Task { @MainActor in
             do {
                 let characters = try await getCharactersListUseCase.execute()
+                print(characters)
                 self.state = .loaded(characters)
             } catch let error {
                 self.state = .error(error.localizedDescription)
             }
+            
         }
-
-        
     }
     
     func onAppear() {
         fetchCharactersList()
+    }
+    
+    func fetchFromLocal() {
+        //TODO 
     }
 }

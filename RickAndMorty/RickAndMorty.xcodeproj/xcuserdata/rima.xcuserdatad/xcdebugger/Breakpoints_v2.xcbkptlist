@@ -23,62 +23,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "28E57E1A-CC3D-4D20-83A2-99E2BDAC5430"
+            uuid = "8691E828-262A-4BE9-8D88-129961F1AF9C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "RickAndMorty/Presentation/CharactersList/CharactersListView.swift"
+            filePath = "RickAndMorty/Utils/UserDefaultsProperty.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "body"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "wrappedValue"
             landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "28E57E1A-CC3D-4D20-83A2-99E2BDAC5430 - 43e0885a7dff50da"
+                  uuid = "8691E828-262A-4BE9-8D88-129961F1AF9C - bf3e0cecb922c094"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0) -&gt; some&gt;&gt;.0 in RickAndMorty.CharactersListView.body.getter : some"
+                  symbolName = "RickAndMorty.RawValueUserDefaultsProperty.wrappedValue.getter : &#x3c4;_0_0"
                   moduleName = "RickAndMorty"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharactersList/CharactersListView.swift"
+                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Utils/UserDefaultsProperty.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "301">
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "105">
                </Location>
                <Location
-                  uuid = "28E57E1A-CC3D-4D20-83A2-99E2BDAC5430 - 160039fb530da092"
+                  uuid = "8691E828-262A-4BE9-8D88-129961F1AF9C - bf3e0cecb922c094"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #3 () -&gt; () in RickAndMorty.CharactersListView.body.getter : some"
+                  symbolName = "RickAndMorty.RawValueUserDefaultsProperty.wrappedValue.getter : &#x3c4;_0_0"
                   moduleName = "RickAndMorty"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharactersList/CharactersListView.swift"
+                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Utils/UserDefaultsProperty.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "42">
-               </Location>
-               <Location
-                  uuid = "28E57E1A-CC3D-4D20-83A2-99E2BDAC5430 - 160039fb530da137"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #3 () -&gt; () in RickAndMorty.CharactersListView.body.getter : some"
-                  moduleName = "RickAndMorty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharactersList/CharactersListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "55"
-                  endingLineNumber = "55"
-                  offsetFromSymbolStart = "42">
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "683">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -86,310 +71,33 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "EB567021-DF9D-430E-8A3C-9A79FE1132C7"
+            uuid = "E4111F0B-558D-4BAE-A3D3-E69A01427CE4"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "RickAndMorty/Presentation/CharactersList/CharacterListViewModel.swift"
+            filePath = "RickAndMorty/Utils/UserDefaultsProperty.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "fetchCharactersList()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "EB567021-DF9D-430E-8A3C-9A79FE1132C7 - a73f7215069b6b5f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in RickAndMorty.CharacterListViewModel.fetchCharactersList() -&gt; ()"
-                  moduleName = "RickAndMorty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharactersList/CharacterListViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "68">
-               </Location>
-               <Location
-                  uuid = "EB567021-DF9D-430E-8A3C-9A79FE1132C7 - 3a72224878256449"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in RickAndMorty.CharacterListViewModel.fetchCharactersList() -&gt; ()"
-                  moduleName = "RickAndMorty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharactersList/CharacterListViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "52">
-               </Location>
-               <Location
-                  uuid = "EB567021-DF9D-430E-8A3C-9A79FE1132C7 - 3ccd21a00fb2275d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in RickAndMorty.CharacterListViewModel.fetchCharactersList() -&gt; ()"
-                  moduleName = "RickAndMorty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharactersList/CharacterListViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "39">
-               </Location>
-               <Location
-                  uuid = "EB567021-DF9D-430E-8A3C-9A79FE1132C7 - 832360988de455c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in RickAndMorty.CharacterListViewModel.fetchCharactersList() -&gt; ()"
-                  moduleName = "RickAndMorty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharactersList/CharacterListViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "64">
-               </Location>
-               <Location
-                  uuid = "EB567021-DF9D-430E-8A3C-9A79FE1132C7 - a73f7215069b6b5f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in RickAndMorty.CharacterListViewModel.fetchCharactersList() -&gt; ()"
-                  moduleName = "RickAndMorty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharactersList/CharacterListViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "94">
-               </Location>
-               <Location
-                  uuid = "EB567021-DF9D-430E-8A3C-9A79FE1132C7 - 3ccd21a00fb2275d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in RickAndMorty.CharacterListViewModel.fetchCharactersList() -&gt; ()"
-                  moduleName = "RickAndMorty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharactersList/CharacterListViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "52">
-               </Location>
-               <Location
-                  uuid = "EB567021-DF9D-430E-8A3C-9A79FE1132C7 - 832360988de455c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in RickAndMorty.CharacterListViewModel.fetchCharactersList() -&gt; ()"
-                  moduleName = "RickAndMorty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharactersList/CharacterListViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "77">
-               </Location>
-               <Location
-                  uuid = "EB567021-DF9D-430E-8A3C-9A79FE1132C7 - a73f7215069b6b5f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in RickAndMorty.CharacterListViewModel.fetchCharactersList() -&gt; ()"
-                  moduleName = "RickAndMorty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharactersList/CharacterListViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "91">
-               </Location>
-            </Locations>
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "wrappedValue"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "31A63483-EAC6-4206-83AE-9076FD6E7FE9"
+            uuid = "92C9132C-7817-4554-A4FF-0FD72F64EEC1"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "RickAndMorty/Presentation/CharactersList/CharactersListView.swift"
+            filePath = "RickAndMorty/Utils/UserDefaultsProperty.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "31A63483-EAC6-4206-83AE-9076FD6E7FE9 - 53d3bbe55d4b79d3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of RickAndMorty.CharactersListView.loadingView : some&gt;&gt;.0, &lt;&lt;opaque return type of RickAndMorty.CharactersListView.errorView(message: Swift.String) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.ScrollView&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of RickAndMorty.CharactersListView.loadingView : some&gt;&gt;.0, &lt;&lt;opaque return type of RickAndMorty.CharactersListView.errorView(message: Swift.String) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt; in RickAndMorty.CharactersListView.body.getter : some"
-                  moduleName = "RickAndMorty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharactersList/CharactersListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "745">
-               </Location>
-               <Location
-                  uuid = "31A63483-EAC6-4206-83AE-9076FD6E7FE9 - 53d3bbe55d4b79d3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of RickAndMorty.CharactersListView.loadingView : some&gt;&gt;.0, &lt;&lt;opaque return type of RickAndMorty.CharactersListView.errorView(message: Swift.String) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.ScrollView&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of RickAndMorty.CharactersListView.loadingView : some&gt;&gt;.0, &lt;&lt;opaque return type of RickAndMorty.CharactersListView.errorView(message: Swift.String) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt; in RickAndMorty.CharactersListView.body.getter : some"
-                  moduleName = "RickAndMorty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharactersList/CharactersListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "835">
-               </Location>
-               <Location
-                  uuid = "31A63483-EAC6-4206-83AE-9076FD6E7FE9 - 53d3bbe55d4b7870"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of RickAndMorty.CharactersListView.loadingView : some&gt;&gt;.0, &lt;&lt;opaque return type of RickAndMorty.CharactersListView.errorView(message: Swift.String) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.ScrollView&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of RickAndMorty.CharactersListView.loadingView : some&gt;&gt;.0, &lt;&lt;opaque return type of RickAndMorty.CharactersListView.errorView(message: Swift.String) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt; in RickAndMorty.CharactersListView.body.getter : some"
-                  moduleName = "RickAndMorty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharactersList/CharactersListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "835">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7FD9BF2D-BB21-4195-ABFD-359565B090A8"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RickAndMorty/Presentation/CharactersList/CharactersListView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "7FD9BF2D-BB21-4195-ABFD-359565B090A8 - 53d3bbe55d4b7968"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of RickAndMorty.CharactersListView.loadingView : some&gt;&gt;.0, &lt;&lt;opaque return type of RickAndMorty.CharactersListView.errorView(message: Swift.String) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.ScrollView&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of RickAndMorty.CharactersListView.loadingView : some&gt;&gt;.0, &lt;&lt;opaque return type of RickAndMorty.CharactersListView.errorView(message: Swift.String) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt; in RickAndMorty.CharactersListView.body.getter : some"
-                  moduleName = "RickAndMorty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharactersList/CharactersListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "2080">
-               </Location>
-               <Location
-                  uuid = "7FD9BF2D-BB21-4195-ABFD-359565B090A8 - bc0c0612657ff62e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;RickAndMorty.CharacterModel&gt;, Foundation.UUID, &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of RickAndMorty.CharactersListView.loadingView : some&gt;&gt;.0, &lt;&lt;opaque return type of RickAndMorty.CharactersListView.errorView(message: Swift.String) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.ScrollView&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of RickAndMorty.CharactersListView.loadingView : some&gt;&gt;.0, &lt;&lt;opaque return type of RickAndMorty.CharactersListView.errorView(message: Swift.String) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt; in RickAndMorty.CharactersListView.body.getter : some"
-                  moduleName = "RickAndMorty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharactersList/CharactersListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "184">
-               </Location>
-               <Location
-                  uuid = "7FD9BF2D-BB21-4195-ABFD-359565B090A8 - 53d3bbe55d4b7968"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of RickAndMorty.CharactersListView.loadingView : some&gt;&gt;.0, &lt;&lt;opaque return type of RickAndMorty.CharactersListView.errorView(message: Swift.String) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.ScrollView&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of RickAndMorty.CharactersListView.loadingView : some&gt;&gt;.0, &lt;&lt;opaque return type of RickAndMorty.CharactersListView.errorView(message: Swift.String) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt; in RickAndMorty.CharactersListView.body.getter : some"
-                  moduleName = "RickAndMorty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharactersList/CharactersListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "2157">
-               </Location>
-               <Location
-                  uuid = "7FD9BF2D-BB21-4195-ABFD-359565B090A8 - bc0c0612657ff62e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;RickAndMorty.CharacterModel&gt;, Foundation.UUID, &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of RickAndMorty.CharactersListView.loadingView : some&gt;&gt;.0, &lt;&lt;opaque return type of RickAndMorty.CharactersListView.errorView(message: Swift.String) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.ScrollView&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of RickAndMorty.CharactersListView.loadingView : some&gt;&gt;.0, &lt;&lt;opaque return type of RickAndMorty.CharactersListView.errorView(message: Swift.String) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt; in RickAndMorty.CharactersListView.body.getter : some"
-                  moduleName = "RickAndMorty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharactersList/CharactersListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "141">
-               </Location>
-               <Location
-                  uuid = "7FD9BF2D-BB21-4195-ABFD-359565B090A8 - 53d3bbe55d4b790d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of RickAndMorty.CharactersListView.loadingView : some&gt;&gt;.0, &lt;&lt;opaque return type of RickAndMorty.CharactersListView.errorView(message: Swift.String) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.ScrollView&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of RickAndMorty.CharactersListView.loadingView : some&gt;&gt;.0, &lt;&lt;opaque return type of RickAndMorty.CharactersListView.errorView(message: Swift.String) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt; in RickAndMorty.CharactersListView.body.getter : some"
-                  moduleName = "RickAndMorty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharactersList/CharactersListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "2157">
-               </Location>
-               <Location
-                  uuid = "7FD9BF2D-BB21-4195-ABFD-359565B090A8 - bc0c0612657ff64b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;RickAndMorty.CharacterModel&gt;, Foundation.UUID, &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of RickAndMorty.CharactersListView.loadingView : some&gt;&gt;.0, &lt;&lt;opaque return type of RickAndMorty.CharactersListView.errorView(message: Swift.String) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.ScrollView&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of RickAndMorty.CharactersListView.loadingView : some&gt;&gt;.0, &lt;&lt;opaque return type of RickAndMorty.CharactersListView.errorView(message: Swift.String) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt; in RickAndMorty.CharactersListView.body.getter : some"
-                  moduleName = "RickAndMorty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharactersList/CharactersListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "141">
-               </Location>
-            </Locations>
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

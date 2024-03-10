@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct CharacterModel: Identifiable {
+struct CharacterModel: Codable,  Identifiable {
     var id: UUID = .init()
     var name: String
     var photoURL: String
@@ -16,12 +16,19 @@ struct CharacterModel: Identifiable {
     var status: CharacterStatus?
     var species: String
 }
-enum Gender: String {
+
+extension CharacterModel: Equatable {
+    static func == (lhs: CharacterModel, rhs: CharacterModel) -> Bool {
+        lhs.id == lhs.id
+    }
+}
+
+enum Gender: String, Codable {
     case male = "Male"
     case female = "Female"
 }
 
-enum CharacterStatus: String {
+enum CharacterStatus: String, Codable {
     case dead = "Dead"
     case alive = "Alive"
     case unknown = "unknown"

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CharactersListView: View {
     
+    @EnvironmentObject var networkMonitor: NetworkMonitor
     @EnvironmentObject private var coordinator: AppCoordinator
     @StateObject var viewModel: CharacterListViewModel
     
@@ -18,6 +19,29 @@ struct CharactersListView: View {
     
     var body: some View {
         VStack {
+            
+            Spacer()
+            
+            VStack {
+                HStack(alignment: .firstTextBaseline) {
+                    Text("Go To Favorite List").foregroundColor(.white)
+                        .font(.system(size: 17, weight: .bold))
+                    Spacer()
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .frame(height: 70)
+                .cornerRadius(10)
+                .padding()
+                .onTapGesture {
+                    coordinator.push(.favoriteList)
+                }
+                
+            }
+            .frame(height: 70)
+            .background(.yellow)
+            .padding()
+            
+
             ScrollView {
                 switch viewModel.state {
                 case .loading:
@@ -38,9 +62,6 @@ struct CharactersListView: View {
                         
                     }.padding([.leading, .trailing], 10)
                 }
-                
-                
-                
             }
             
         }
@@ -53,6 +74,11 @@ struct CharactersListView: View {
         }
         .onAppear {
             viewModel.fetchCharactersList()
+        }
+        .onChange(of: networkMonitor.isConnected) {_, connection in
+            if !connection  {
+                viewModel.fetchFromLocal()
+            }
         }
         
     }
@@ -78,10 +104,10 @@ struct CharacterItemView: View {
     init(viewModel: CharacterDetailsViewModel) {
         self.viewModel = viewModel
     }
-
+    
     var body: some View {
         VStack {
-            RMAsyncImage(urlString: viewModel.charaterModel.photoURL)
+            RMCachedImage(urlString: viewModel.charaterModel.photoURL)
                 .frame(height: 100)
                 .padding(.top, 0)
                 .cornerRadius(10)
@@ -90,7 +116,7 @@ struct CharacterItemView: View {
                     .lineLimit(1)
                     .font(.system(size: 16, weight: .bold))
                 
-
+                
                 HStack {
                     Circle().frame(width: 15)
                         .foregroundColor(textColor())
@@ -98,7 +124,7 @@ struct CharacterItemView: View {
                     Text((viewModel.charaterModel.status?.rawValue ?? "") + "-" + viewModel.charaterModel.species)
                         .lineLimit(1)
                         .font(.system(size: 14))
-
+                    
                 }
             }
         }
@@ -118,6 +144,6 @@ struct CharacterItemView: View {
             return .gray
         }
     }
-
+    
 }
 

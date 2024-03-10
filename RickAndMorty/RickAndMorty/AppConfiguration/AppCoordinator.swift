@@ -14,6 +14,7 @@ enum Page:  Hashable, Identifiable {
     }
     case charactersList
     case characterDetails(viewModel: CharacterDetailsViewModel)
+    case favoriteList
     
     // MARK: Required methods for class to conform to Hashable
     func hash(into hasher: inout Hasher) {
@@ -42,6 +43,8 @@ class AppCoordinator: ObservableObject {
             CharactersListView(viewModel: CharacterListViewModel())
         case .characterDetails(let viewModel):
             CharacterDetailsView(viewModel: viewModel)
+        case .favoriteList:
+            FavoriteListView()
         }
     }
     

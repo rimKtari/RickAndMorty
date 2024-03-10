@@ -31,6 +31,13 @@
 		203BCE432B9CE3C20072B39F /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203BCE422B9CE3C20072B39F /* Styles.swift */; };
 		203BCE452B9CE8BB0072B39F /* CharacterListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203BCE442B9CE8BB0072B39F /* CharacterListState.swift */; };
 		203BCE472B9CEBA80072B39F /* RMAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203BCE462B9CEBA80072B39F /* RMAsyncImage.swift */; };
+		203BCE4A2B9D0DA40072B39F /* CharactersListMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = 203BCE492B9D0DA40072B39F /* CharactersListMockData.json */; };
+		203BCE4B2B9D0DA40072B39F /* CharactersListMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = 203BCE492B9D0DA40072B39F /* CharactersListMockData.json */; };
+		203BCE4D2B9D10CB0072B39F /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203BCE4C2B9D10CB0072B39F /* NetworkMonitor.swift */; };
+		203BCE502B9D15080072B39F /* FavoriteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203BCE4F2B9D15080072B39F /* FavoriteListViewModel.swift */; };
+		203BCE522B9D15110072B39F /* FavoriteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203BCE512B9D15110072B39F /* FavoriteListView.swift */; };
+		203BCE542B9D1EBC0072B39F /* CharactersListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203BCE532B9D1EBC0072B39F /* CharactersListViewModelTests.swift */; };
+		203BCE5C2B9D368E0072B39F /* MainActor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203BCE5B2B9D368D0072B39F /* MainActor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +85,12 @@
 		203BCE422B9CE3C20072B39F /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		203BCE442B9CE8BB0072B39F /* CharacterListState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListState.swift; sourceTree = "<group>"; };
 		203BCE462B9CEBA80072B39F /* RMAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMAsyncImage.swift; sourceTree = "<group>"; };
+		203BCE492B9D0DA40072B39F /* CharactersListMockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CharactersListMockData.json; sourceTree = "<group>"; };
+		203BCE4C2B9D10CB0072B39F /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		203BCE4F2B9D15080072B39F /* FavoriteListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListViewModel.swift; sourceTree = "<group>"; };
+		203BCE512B9D15110072B39F /* FavoriteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListView.swift; sourceTree = "<group>"; };
+		203BCE532B9D1EBC0072B39F /* CharactersListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListViewModelTests.swift; sourceTree = "<group>"; };
+		203BCE5B2B9D368D0072B39F /* MainActor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainActor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +147,9 @@
 				203BCE272B9CA91E0072B39F /* Domain */,
 				203BCE282B9CA9290072B39F /* Data */,
 				203BCE412B9CE39C0072B39F /* Utils */,
+				203BCE5A2B9D367F0072B39F /* Extensions */,
 				203BCDED2B9CA3750072B39F /* Assets.xcassets */,
+				203BCE482B9D0B0C0072B39F /* Mocks */,
 				203BCDEF2B9CA3750072B39F /* Preview Content */,
 			);
 			path = RickAndMorty;
@@ -152,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				203BCDFA2B9CA3760072B39F /* RickAndMortyTests.swift */,
+				203BCE532B9D1EBC0072B39F /* CharactersListViewModelTests.swift */,
 			);
 			path = RickAndMortyTests;
 			sourceTree = "<group>";
@@ -168,6 +184,7 @@
 		203BCE132B9CA3AE0072B39F /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				203BCE4E2B9D14F40072B39F /* FavoriteList */,
 				203BCE152B9CA3E80072B39F /* CharacterDetails */,
 				203BCE142B9CA3DF0072B39F /* CharactersList */,
 				203BCE462B9CEBA80072B39F /* RMAsyncImage.swift */,
@@ -234,6 +251,7 @@
 			children = (
 				203BCE292B9CA9C20072B39F /* CharactersRepository */,
 				203BCE2D2B9CAB300072B39F /* APICall */,
+				203BCE4C2B9D10CB0072B39F /* NetworkMonitor.swift */,
 			);
 			path = Netwroking;
 			sourceTree = "<group>";
@@ -280,6 +298,31 @@
 				203BCE422B9CE3C20072B39F /* Styles.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		203BCE482B9D0B0C0072B39F /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				203BCE492B9D0DA40072B39F /* CharactersListMockData.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		203BCE4E2B9D14F40072B39F /* FavoriteList */ = {
+			isa = PBXGroup;
+			children = (
+				203BCE4F2B9D15080072B39F /* FavoriteListViewModel.swift */,
+				203BCE512B9D15110072B39F /* FavoriteListView.swift */,
+			);
+			path = FavoriteList;
+			sourceTree = "<group>";
+		};
+		203BCE5A2B9D367F0072B39F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				203BCE5B2B9D368D0072B39F /* MainActor+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,6 +431,7 @@
 			files = (
 				203BCDF12B9CA3750072B39F /* Preview Assets.xcassets in Resources */,
 				203BCDEE2B9CA3750072B39F /* Assets.xcassets in Resources */,
+				203BCE4A2B9D0DA40072B39F /* CharactersListMockData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +439,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				203BCE4B2B9D0DA40072B39F /* CharactersListMockData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,11 +461,14 @@
 				203BCE2B2B9CAA1B0072B39F /* CharactersRepository.swift in Sources */,
 				203BCE452B9CE8BB0072B39F /* CharacterListState.swift in Sources */,
 				203BCE302B9CAB960072B39F /* CharacterResponse.swift in Sources */,
+				203BCE5C2B9D368E0072B39F /* MainActor+Extension.swift in Sources */,
 				203BCE3C2B9CBA130072B39F /* CreateCharactersListUseCase.swift in Sources */,
 				203BCDEA2B9CA3720072B39F /* RickAndMortyApp.swift in Sources */,
 				203BCE382B9CAE5E0072B39F /* APIResult.swift in Sources */,
 				203BCE222B9CA49B0072B39F /* AppCoordinator.swift in Sources */,
 				203BCE342B9CAC0F0072B39F /* APIRequestConvertible.swift in Sources */,
+				203BCE502B9D15080072B39F /* FavoriteListViewModel.swift in Sources */,
+				203BCE522B9D15110072B39F /* FavoriteListView.swift in Sources */,
 				203BCE432B9CE3C20072B39F /* Styles.swift in Sources */,
 				203BCE322B9CABE50072B39F /* MiddlewareManager.swift in Sources */,
 				203BCE172B9CA4170072B39F /* CharacterDetailsViewModel.swift in Sources */,
@@ -429,6 +477,7 @@
 				203BCE3E2B9CBAD90072B39F /* CharacterModel.swift in Sources */,
 				203BCE402B9CBEB20072B39F /* GetCharactersListUseCase.swift in Sources */,
 				203BCE192B9CA4240072B39F /* CharacterDetailsView.swift in Sources */,
+				203BCE4D2B9D10CB0072B39F /* NetworkMonitor.swift in Sources */,
 				203BCE362B9CADF40072B39F /* APIError.swift in Sources */,
 				203BCE472B9CEBA80072B39F /* RMAsyncImage.swift in Sources */,
 			);
@@ -438,6 +487,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				203BCE542B9D1EBC0072B39F /* CharactersListViewModelTests.swift in Sources */,
 				203BCDFB2B9CA3760072B39F /* RickAndMortyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,6 +6,10 @@
 //
 
 import Foundation
+
+
+
+
 protocol GetCharactersListUseCaseProtocol {
     func execute() async throws -> [CharacterModel]
 }
