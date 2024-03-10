@@ -19,12 +19,6 @@ class CreateCharactersListUseCase: CreateCharactersListUseCaseProtocol {
     func execute(characters: [CharacterResponse]) -> [CharacterModel] {
         guard !characters.isEmpty else { return [] }
         
-        
-//        favoriteCharacters = characters.compactMap {
-//            CharacterModel(name: $0.name, photoURL: $0.image, gender: Gender(rawValue: $0.gender),
-//                           status: CharacterStatus(rawValue: $0.status), species: $0.species)
-//        }
-//        favoriteCharacters = []
         return characters.compactMap {
             CharacterModel(name: $0.name, photoURL: $0.image, gender: Gender(rawValue: $0.gender),
                            status: CharacterStatus(rawValue: $0.status), species: $0.species)
