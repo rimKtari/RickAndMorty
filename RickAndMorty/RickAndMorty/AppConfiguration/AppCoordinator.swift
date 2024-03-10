@@ -44,7 +44,7 @@ class AppCoordinator: ObservableObject {
         case .characterDetails(let viewModel):
             CharacterDetailsView(viewModel: viewModel)
         case .favoriteList:
-            FavoriteListView()
+            FavoriteListView(viewModel: FavoriteListViewModel())
         }
     }
     

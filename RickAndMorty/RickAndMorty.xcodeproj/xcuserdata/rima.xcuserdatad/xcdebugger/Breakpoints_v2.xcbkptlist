@@ -32,8 +32,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "36"
             endingLineNumber = "36"
-            landmarkName = "wrappedValue"
-            landmarkType = "24">
+            landmarkName = "UserDefaultsKeys"
+            landmarkType = "14">
             <Locations>
                <Location
                   uuid = "8691E828-262A-4BE9-8D88-129961F1AF9C - bf3e0cecb922c094"
@@ -65,6 +65,21 @@
                   endingLineNumber = "36"
                   offsetFromSymbolStart = "683">
                </Location>
+               <Location
+                  uuid = "8691E828-262A-4BE9-8D88-129961F1AF9C - 79a71acd4aa8e967"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RickAndMorty.UserDefaultsKeys.init() -&gt; RickAndMorty.UserDefaultsKeys"
+                  moduleName = "RickAndMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Utils/UserDefaultsProperty.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "4">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -79,9 +94,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "wrappedValue"
-            landmarkType = "24">
+            endingLineNumber = "45">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -98,6 +111,100 @@
             endingLineNumber = "7"
             landmarkName = "unknown"
             landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF2267F2-E1C4-4F23-AAB6-182F7CB4D2CE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RickAndMorty/Presentation/CharacterDetails/CharacterDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "addToFavorite()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CF2267F2-E1C4-4F23-AAB6-182F7CB4D2CE - c1901a557d255a88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RickAndMorty.CharacterDetailsViewModel.addToFavorite() -&gt; ()"
+                  moduleName = "RickAndMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharacterDetails/CharacterDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  uuid = "CF2267F2-E1C4-4F23-AAB6-182F7CB4D2CE - c1901a557d255aaf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RickAndMorty.CharacterDetailsViewModel.addToFavorite() -&gt; ()"
+                  moduleName = "RickAndMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharacterDetails/CharacterDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  uuid = "CF2267F2-E1C4-4F23-AAB6-182F7CB4D2CE - c1901a557d255a88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RickAndMorty.CharacterDetailsViewModel.addToFavorite() -&gt; ()"
+                  moduleName = "RickAndMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharacterDetails/CharacterDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "101">
+               </Location>
+               <Location
+                  uuid = "CF2267F2-E1C4-4F23-AAB6-182F7CB4D2CE - c1901a557d255aaf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RickAndMorty.CharacterDetailsViewModel.addToFavorite() -&gt; ()"
+                  moduleName = "RickAndMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rima/Desktop/RickAndMorty/RickAndMorty/RickAndMorty/Presentation/CharacterDetails/CharacterDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "101">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E8BB007-6DD9-4BEA-B11A-574658284E43"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RickAndMorty/Presentation/CharacterDetails/CharacterDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "isFavorite"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

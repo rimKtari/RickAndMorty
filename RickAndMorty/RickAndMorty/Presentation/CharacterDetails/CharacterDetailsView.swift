@@ -11,6 +11,7 @@ struct CharacterDetailsView: View {
     
     var viewModel: CharacterDetailsViewModel
     @EnvironmentObject private var coordinator: AppCoordinator
+    @State var isFavorite: Bool = false
     
     var body: some View {
         
@@ -39,14 +40,30 @@ struct CharacterDetailsView: View {
                 Text("Gender: " + (viewModel.charaterModel.gender?.rawValue ?? ""))
                     .font(.system(size: 20))
                     .foregroundStyle(genderColor)
+                Button {
+                    isFavorite ? viewModel.removeFromFavorite() : viewModel.addToFavorite()
+                    isFavorite.toggle()
+                } label: {
+                    Text(favoriteButtonText)
+                        .font(.system(size: 20))
+                        .foregroundStyle(.red)
+                }
+                
             }
             Spacer()
-        }   .navigationBarBackButtonHidden()
-            .navigationBarTitleDisplayMode(.inline)
+        }
+        .navigationBarBackButtonHidden()
+        .navigationBarTitleDisplayMode(.inline)
+        .onAppear {
+            isFavorite = viewModel.isFavorite
+        }
     }
     
     var genderColor: Color {
         viewModel.charaterModel.gender == .male ? Styles.Colors.lightBlue  : Styles.Colors.lightRed
+    }
+    var favoriteButtonText: String {
+        isFavorite ? "Remove favorite" : "Add to favorite"
     }
 }
 

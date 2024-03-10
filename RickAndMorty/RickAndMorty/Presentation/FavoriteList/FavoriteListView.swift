@@ -8,11 +8,33 @@
 import SwiftUI
 
 struct FavoriteListView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    
+    @StateObject var viewModel: FavoriteListViewModel
+    
+    var columns : Array<GridItem> {
+        return Array(repeating: GridItem(.flexible(minimum: 100), spacing: 5), count: 2)
     }
-}
-
-#Preview {
-    FavoriteListView()
+    
+    var body: some View {
+        
+        VStack {
+            ScrollView {
+                if viewModel.listOfFavorites.isEmpty {
+                    Text("You don't have any favorite list")
+                }else {
+                    LazyVGrid(columns: columns, spacing: 15) {
+                        ForEach(viewModel.listOfFavorites) { characterModel in
+                            
+                            let characterDetailsViewModel = CharacterDetailsViewModel(charaterModel: characterModel)
+                            CharacterItemView(viewModel: characterDetailsViewModel )
+                        }
+                        
+                    }.padding([.leading, .trailing], 10)
+                }
+            }
+        }
+        .onAppear {
+            viewModel.getFavoritesList()
+        }
+    }
 }

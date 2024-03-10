@@ -8,16 +8,22 @@
 import Foundation
 
 
-struct CharacterModel: Codable,  Identifiable {
-    var id: UUID = .init()
+struct CharacterModel: Codable,  Identifiable, Hashable {
+    
+    var id: String {
+        return name
+    }
+    
     var name: String
     var photoURL: String
     var gender: Gender?
     var status: CharacterStatus?
     var species: String
+    var isFavorite: Bool = false
 }
 
 extension CharacterModel: Equatable {
+    
     static func == (lhs: CharacterModel, rhs: CharacterModel) -> Bool {
         lhs.id == lhs.id
     }
